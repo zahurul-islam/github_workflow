@@ -1,4 +1,6 @@
-# write a basic calculator with functions add, subtract, multiply and divide (also check divide by zero)
+# Basic calculator functions:
+# - add, subtract, multiply
+# - divide (with zero division check)
 def add(a, b):
     return a + b
 
