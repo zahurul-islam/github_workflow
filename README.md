@@ -1,4 +1,3 @@
-```markdown
 # Calculator Project
 
 A simple Python calculator project demonstrating basic arithmetic operations and unit testing.
