@@ -18,3 +18,9 @@ def divide(a, b):
         raise ZeroDivisionError("Error: Divide by zero")
     else:
         return a / b
+
+
+def mod(a, b):
+    if b == 0:
+        raise ZeroDivisionError("Error: Modulo by zero")
+    return a % b

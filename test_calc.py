@@ -1,6 +1,6 @@
 # Write pytest for  calc.py
 import pytest
-from calc import add, subtract, multiply, divide
+from calc import add, subtract, multiply, divide, mod
 
 
 def test_add():
@@ -23,3 +23,13 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ZeroDivisionError):
         divide(6, 0)
+
+
+def test_mod():
+    assert mod(5, 3) == 2
+    assert mod(10, 5) == 0
+
+
+def test_mod_by_zero():
+    with pytest.raises(ZeroDivisionError):
+        mod(6, 0)
